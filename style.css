@@ -2,9 +2,9 @@ header {
     background-color: hotpink;
     color: #ffffff;
     text-align: center;
-    max-width: 880px;
+    max-width: 999px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 16px;
 }
 
 main {
