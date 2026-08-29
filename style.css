@@ -27,3 +27,11 @@ img {
 .artigo-autor {
     font-weight: bold;
 }
+
+h1 {
+    font-size: 60px;
+}
+
+header p {
+    font-size: 25px;
+}
