@@ -1,5 +1,19 @@
 :root {
+    --cor-primaria:  rgb(194, 3, 98);
+    --cor-secundaria:  rgb(233, 52, 142);
+    --cor-fundo: #ffffff;
+    --cor-texto: rgb(0, 0, 0);
+    --cor-contraste: #ffffff;
+    --cor-botao: #ffeaea;
+}
 
+.tema-escuro {
+     --cor-primaria:  rgb(255, 92, 173);
+    --cor-secundaria:  rgb(233, 52, 142);
+    --cor-fundo: #000000;
+    --cor-texto: rgb(255, 255, 255);
+    --cor-contraste: #ffffff;
+    --cor-botao: #ffeaea;
 }
 
 body {
@@ -7,16 +21,16 @@ body {
 }
 
 header {
-    background-color: rgb(209, 0, 105);
-    color: #ffffff;
+    background-color: var(--cor-primaria);
+    color: var(--cor-contraste);
     text-align: center;
     margin: 0 auto;
     padding: 16px;
 }
 
 main {
-    background-color: #ffffff;
-    color: rgb(207, 0, 121);
+    background-color: var(--cor-fundo);
+    color:  var(--cor-primaria);
     margin: 0 auto;
     padding: 16px;
 
@@ -27,7 +41,7 @@ main {
 article {
     display: flex;
 
-    border: 1px solid #c20683;
+    border: 1px solid var(--cor-secundaria);
 
     margin: 16px;
     gap: 16px;
