@@ -15,10 +15,21 @@ main {
     color: rgb(207, 0, 121);
     margin: 0 auto;
     padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 article {
     display: flex;
+
+    border: 1px solid #c20683;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
 }
 
 img {
