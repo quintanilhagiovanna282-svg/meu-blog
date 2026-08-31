@@ -14,8 +14,8 @@
     --cor-secundaria:  rgb(233, 52, 142);
     --cor-fundo: #000000;
     --cor-texto: rgb(255, 255, 255);
-    --cor-contraste: #ffffff;
-    --cor-botao: #ffeaea;
+    --cor-contraste: #000000;
+    --cor-botao: #da007f;
 }
 
 .tema-escuro a {
