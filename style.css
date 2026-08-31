@@ -93,8 +93,8 @@ h1 {
     border-radius: 50%;
 }
 .imagem-rotina {
-    width: 500px;
-    max-width: 300px;
+    width: 300px;
+    max-width: 500px;
     height: auto;
     border-radius: 12px;
     display: block;
